@@ -9,12 +9,12 @@ const { Header, Content, Footer } = Layout;
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Layout>
-        <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
-          <Navbar />
+        <Header style={{ position: 'fixed', width: '100%' }}>
+          <Navbar/>
         </Header>
-        <Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 }}>
+        <Content className="site-layout" style={{ margin: '0 auto' }}>
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/Whitepaper" element={<Whitepaper />} />

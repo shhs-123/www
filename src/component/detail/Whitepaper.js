@@ -1,5 +1,6 @@
 import React from 'react';
 import { Collapse } from 'antd';
+import whitepaperimage from '../images/whitepaper.png';
 
 const { Panel } = Collapse;
 
@@ -10,7 +11,7 @@ const Whitepaper = () => {
       <h1>Welcome Www!</h1>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%' }}>
 
-        <img src="/image/whitepaper.png" alt="Whitepaper Background" style={{ width: '100%', height: 'auto', marginBottom: '20px' }} />
+        <img src={whitepaperimage} alt="Whitepaper Background" style={{ width: '100%', height: 'auto', marginBottom: '20px' }} />
         <p>Building World Class Swap Experiences Together
           Our goal is simple: Help you give world class experiences for your users with as little work as possible, regardless of your use case or needs.</p>
       </div>

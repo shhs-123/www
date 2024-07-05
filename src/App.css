@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: o auto;
 }
 
 .App-logo {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,3 +38,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* App.css or Navbar.css */
+.ant-menu {
+  background-color: white !important;
+  /* 배경색을 투명하게 설정 */
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-selected {
+  background-color: transparent !important;
+  /* 선택된 메뉴 아이템의 배경색 제거 */
+}
+
+.ant-menu-horizontal>.ant-menu-item:hover {
+  background-color: transparent !important;
+  /* 호버 상태의 배경색 제거 */
+}
+
+
+
