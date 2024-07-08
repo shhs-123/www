@@ -1,5 +1,5 @@
-body,
-#root {
+/* body, */
+/* #root {
   margin: 0;
   padding: 0;
   display: flex;
@@ -12,25 +12,25 @@ body,
   flex-direction: column;
   align-items: center;
   width: 100%;
-}
+} */
 
 
 /* Layout.css */
-.Header {
+/* .Header {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
   /* 높은 z-index 값을 설정 */
-  background: white;
+  /* background: white; */
   /* 네비게이션 바 배경색 */
-}
+/* } */ 
 
-.Content {
-  margin-top: 64px;
+/* .Content { */
+  /* margin-top: 64px; */
   /* Header 높이만큼 상단 마진 설정 */
-  padding: 20px;
+  /* padding: 20px; */
   /* 콘텐츠의 패딩 설정 */
-  background: aliceblue;
+  /* background: aliceblue; */
   /* 콘텐츠 배경색 */
-}
+/* }
