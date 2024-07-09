@@ -24,7 +24,7 @@ const Navbar = () => {
   // );
 
   return (
-    <div style={{ backgroundColor: 'blue', width: '100%' }}>
+    <div style={{ backgroundColor: 'blue', width: '100%', position: 'fixed', top: 0, zIndex: 1000 }}>
       <Menu mode="horizontal" style={{ width: '100%', lineHeight: '64px', justifyContent: 'center' }}>
         <Menu.Item key="home">
           <Link to="/">
@@ -49,16 +49,16 @@ const Navbar = () => {
         </Menu.Item>
 
 
- <Menu.Item key="language">
+        <Menu.Item key="language">
           <Link to="/">
             <img src={languageImage} alt="language" style={{ height: '25px', marginRight: '10px', marginBottom: '-5px' }} />
           </Link>
         </Menu.Item>
-      
+
         {/* <Menu.Item key="login">
           <Link to="/login">로그인</Link>
         </Menu.Item> */}
-        
+
         {/* Adding the language selection dropdown */}
         {/* <Dropdown overlay={languageMenu} trigger={['click']}>
           <a href="/" onClick={(e) => e.preventDefault()} style={{ display: 'flex', alignItems: 'center' }}>
