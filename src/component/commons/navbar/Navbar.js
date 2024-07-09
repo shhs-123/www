@@ -2,7 +2,7 @@ import React from 'react';
 import { Menu, Dropdown } from 'antd';
 import { Link } from 'react-router-dom';
 import logo1Image from '../../images/logo1.png';
-import languageImage from '../../images/korea.png'
+import languageImage from '../../images/korea1.png'
 // import { GlobalOutlined } from '@ant-design/icons';
 
 const Navbar = () => {
@@ -51,7 +51,7 @@ const Navbar = () => {
 
         <Menu.Item key="language">
           <Link to="/">
-            <img src={languageImage} alt="language" style={{ height: '25px', marginRight: '10px', marginBottom: '-5px' }} />
+            <img src={languageImage} alt="language" style={{ height: '23px', marginRight: '10px', marginBottom: '-5px' }} />
           </Link>
         </Menu.Item>
 
