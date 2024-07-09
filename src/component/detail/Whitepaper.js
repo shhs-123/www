@@ -21,24 +21,24 @@ const Whitepaper = () => {
       <h1 style={{ borderBottom: '1px solid #ccc', paddingBottom: '10px', textAlign: 'center', marginTop: '20px', width: '80%', margin: '0 auto' }}>Whitepaper</h1>
 
       <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', maxWidth: '1200px', padding: '20px', boxSizing: 'border-box' }}>
-        <div style={{ width: '20%', backgroundColor: 'white', padding: '20px 0px' }}>
+        <div style={{ width: '15%', backgroundColor: 'white', padding: '20px 0px' }}>
           {/* 원래 <div style={{ width: '18%', padding: '50px 20px', marginRight: '5px', top: '218px', left: '90px', backgroundColor: 'white' }}> */}
           <Collapse
             bordered={false}
-            style={{ backgroundColor: 'white', border: '1px solid #ABB2B9' }}
+            style={{ backgroundColor: 'white' }}
             expandIcon={customExpandIcon}
             expandIconPosition="end"
           >
-            <Panel header="About Www" key="1" style={{ borderBottom: '1px solid #ccc' }}>
+            <Panel header="About Www" key="1" >
               <p>About Www</p>
             </Panel>
-            <Panel header="Technology" key="2" style={{ borderBottom: '1px solid #ccc' }}>
+            <Panel header="Technology" key="2" >
               <p>Technology</p>
             </Panel>
-            <Panel header="Roadmap" key="3" style={{ borderBottom: '1px solid #ccc' }}>
+            <Panel header="Roadmap" key="3" >
               <p>Roadmap</p>
             </Panel>
-            <Panel header="Team" key="4" style={{ borderBottom: '1px solid #ccc' }}>
+            <Panel header="Team" key="4" >
               <p>Team</p>
             </Panel>
             <Panel header="Guide" key="5" style={{ borderBottom: '1px solid #ccc' }}>
