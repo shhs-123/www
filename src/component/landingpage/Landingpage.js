@@ -5,12 +5,12 @@ import mainImage from '../images/main.png';
 
 const LandingPage = () => {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', padding: '60px', boxSizing: 'border-box' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', padding: '45px', boxSizing: 'border-box' }}>
 
-      <div style={{ width: '100%', maxWidth: '800px', marginBottom: '100px' }}>
-
+      <div style={{ width: '100%', maxWidth: '1200px', marginBottom: '100px' }}>
         <img src={mainImage} alt="Main Visual" style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
       </div>
+
       <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', padding: '0 20px', maxWidth: '800px' }}>
         <div style={{ width: '70%' }}>
           <h1>"Www우주 고양이"</h1>
